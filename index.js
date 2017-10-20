@@ -5,7 +5,6 @@ const app = require('./clutter')
 var port = 3050;
 // app.listen(port , ()=>{
 //     console.log('server is running on port' , port)
-
 // })
 
 app.listen(port, function () {

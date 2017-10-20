@@ -15,7 +15,7 @@ const speechClient = Speech({
   projectId: projectId
 });
 
-
+app.use(bodyparser.json())
 const test = './resources/audio2.raw';
 const test2 = fs.readFileSync(test);
 const audioBytes = test2.toString('base64');
